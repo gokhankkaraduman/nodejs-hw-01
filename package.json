@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-hw-01",
+  "version": "1.0.0",
+  "description": "nodejs-hw-01",
+  "main": "index.js",
+  "scripts": {
+    "get-all": "node src/scripts/getAllContacts",
+    "generate": "node src/scripts/generateContacts.js",
+    "add-one": "node src/scripts/addOneContact.js",
+    "count": "node src/scripts/countContacts.js",
+    "remove-last": "node src/scripts/removeLastContact.js",
+    "remove-all": "node src/scripts/removeAllContacts.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gokhankkaraduman/nodejs-hw-01.git"
+  },
+  "keywords": [],
+  "author": "Gökhan Karaduman <gokhan.kkaraduman3@gmail.com>",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/gokhankkaraduman/nodejs-hw-01/issues"
+  },
+  "homepage": "https://github.com/gokhankkaraduman/nodejs-hw-01#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "@faker-js/faker": "^9.7.0",
+    "eslint": "^9.25.1",
+    "globals": "^16.0.0",
+    "nodemon": "^3.1.10"
+  }
+}
